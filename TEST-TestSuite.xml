@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.816" tests="6" errors="0" skipped="5" failures="1">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/runner/work/DatabaseDemo/DatabaseDemo/target/test-classes:/home/runner/work/DatabaseDemo/DatabaseDemo/target/classes:/home/runner/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/runner/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/runner/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/runner/.m2/repository/com/sap/cloud/db/jdbc/ngdbc/2.11.14/ngdbc-2.11.14.jar:/home/runner/.m2/repository/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar:/home/runner/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/home/runner/.m2/repository/org/apache/poi/poi/4.1.0/poi-4.1.0.jar:/home/runner/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar:/home/runner/.m2/repository/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar:/home/runner/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/runner/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/runner/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/home/runner/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/runner/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/runner/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/runner/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/runner/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/runner/.m2/repository/org/apache/poi/poi-ooxml/4.1.0/poi-ooxml-4.1.0.jar:/home/runner/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.0/poi-ooxml-schemas-4.1.0.jar:/home/runner/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/home/runner/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/runner/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/runner/work/DatabaseDemo/DatabaseDemo/target/surefire/surefirebooter6360532780008613107.jar /home/runner/work/DatabaseDemo/DatabaseDemo/target/surefire 2022-04-01T04-33-46_284-jvmRun1 surefire8166358099022027377tmp surefire_04080705595170448530tmp"/>
+    <property name="surefire.test.class.path" value="/home/runner/work/DatabaseDemo/DatabaseDemo/target/test-classes:/home/runner/work/DatabaseDemo/DatabaseDemo/target/classes:/home/runner/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/runner/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/runner/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/runner/.m2/repository/com/sap/cloud/db/jdbc/ngdbc/2.11.14/ngdbc-2.11.14.jar:/home/runner/.m2/repository/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar:/home/runner/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/home/runner/.m2/repository/org/apache/poi/poi/4.1.0/poi-4.1.0.jar:/home/runner/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar:/home/runner/.m2/repository/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar:/home/runner/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/runner/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/runner/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/home/runner/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/runner/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/runner/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/runner/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/runner/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/runner/.m2/repository/org/apache/poi/poi-ooxml/4.1.0/poi-ooxml-4.1.0.jar:/home/runner/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.0/poi-ooxml-schemas-4.1.0.jar:/home/runner/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/home/runner/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/runner/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/runner"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/opt/hostedtoolcache/jdk/8.0.322/x64/jre"/>
+    <property name="basedir" value="/home/runner/work/DatabaseDemo/DatabaseDemo"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="jdk.vendor.version" value="Zulu 8.60.0.21-CA-linux64"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/runner/work/DatabaseDemo/DatabaseDemo/target/surefire/surefirebooter6360532780008613107.jar"/>
+    <property name="sun.boot.class.path" value="/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/resources.jar:/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/rt.jar:/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/sunrsasign.jar:/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/jsse.jar:/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/jce.jar:/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/charsets.jar:/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/jfr.jar:/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/cat.jar:/opt/hostedtoolcache/jdk/8.0.322/x64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_322-b06"/>
+    <property name="user.name" value="runner"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.13.0-1017-azure"/>
+    <property name="java.endorsed.dirs" value="/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/runner/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_322"/>
+    <property name="user.dir" value="/home/runner/work/DatabaseDemo/DatabaseDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="25.322-b06"/>
+    <property name="java.ext.dirs" value="/opt/hostedtoolcache/jdk/8.0.322/x64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setup" classname="testFolder.DemoTest" time="1.035">
+    <failure message="Communications link failure&#10;&#10;The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server." type="com.mysql.cj.jdbc.exceptions.CommunicationsException">com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[Apr 01, 2022 4:33:47 AM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file /home/runner/work/DatabaseDemo/DatabaseDemo\extent-config.xml was not found.
+]]></system-err>
+  </testcase>
+  <testcase name="countCountryTest" classname="testFolder.DemoTest" time="0">
+    <skipped message="Communications link failure&#10;&#10;The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server."/>
+  </testcase>
+  <testcase name="getResult" classname="testFolder.DemoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="testFolder.DemoTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="findCountryCapitalTest" classname="testFolder.DemoTest" time="0">
+    <skipped message="Communications link failure&#10;&#10;The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server."/>
+  </testcase>
+  <testcase name="tearDown" classname="testFolder.DemoTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
