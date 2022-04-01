@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.85 s <<< FAILURE! - in TestSuite
+findCountryCapitalTest(testFolder.DemoTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected [Paris] but found [London]
+	at testFolder.DemoTest.findCountryCapitalTest(DemoTest.java:39)
+

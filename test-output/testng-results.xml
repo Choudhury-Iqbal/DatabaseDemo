@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37564" started-at="2022-03-01T19:55:33Z" finished-at="2022-03-01T19:56:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37564" started-at="2022-03-01T19:55:33Z" finished-at="2022-03-01T19:56:11Z">
+      <class name="testFolder.DemoTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testFolder.DemoTest@4f0f2942]" name="startReport" is-config="true" duration-ms="11438" started-at="2022-03-01T19:55:33Z" finished-at="2022-03-01T19:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testFolder.DemoTest@4f0f2942]" name="setup" is-config="true" duration-ms="24198" started-at="2022-03-01T19:55:45Z" finished-at="2022-03-01T19:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="countCountryTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testFolder.DemoTest@4f0f2942]" name="countCountryTest" duration-ms="45" started-at="2022-03-01T19:56:10Z" data-provider="countCountryDataProvider" finished-at="2022-03-01T19:56:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SELECT count(*)  FROM country.country_db]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Finding out the Total  Number of Countries]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countCountryTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testFolder.DemoTest@4f0f2942]" name="getResult" is-config="true" duration-ms="14" started-at="2022-03-01T19:56:10Z" finished-at="2022-03-01T19:56:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=countCountryTest status=SUCCESS method=DemoTest.countCountryTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testFolder.DemoTest@4f0f2942] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="findCountryCapitalTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testFolder.DemoTest@4f0f2942]" name="findCountryCapitalTest" duration-ms="5" started-at="2022-03-01T19:56:10Z" data-provider="capitalDataProvider" finished-at="2022-03-01T19:56:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SELECT country_capital FROM country.country_db where country_name = 'England']]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Finding out the capital of country England ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCountryCapitalTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testFolder.DemoTest@4f0f2942]" name="getResult" is-config="true" duration-ms="1" started-at="2022-03-01T19:56:10Z" finished-at="2022-03-01T19:56:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findCountryCapitalTest status=SUCCESS method=DemoTest.findCountryCapitalTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testFolder.DemoTest@4f0f2942] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testFolder.DemoTest@4f0f2942]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-03-01T19:56:10Z" finished-at="2022-03-01T19:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testFolder.DemoTest@4f0f2942]" name="endReport" is-config="true" duration-ms="581" started-at="2022-03-01T19:56:10Z" finished-at="2022-03-01T19:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testFolder.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
